@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Ticket management system (Incident management)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZakariaBatty/TicketingSystem.git"
+  },
+  "keywords": [
+    "react-js",
+    "api",
+    "mernstack",
+    "nodejs",
+    "expressjs",
+    "mongoose",
+    "expressJs"
+  ],
+  "author": "zakaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZakariaBatty/TicketingSystem/issues"
+  },
+  "homepage": "https://github.com/ZakariaBatty/TicketingSystem#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.5.1",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "fawn": "^2.1.5",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7"
+  }
+}
